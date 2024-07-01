@@ -13,11 +13,11 @@ section{
 }
 
 .one{
-  background-color: rgba(210, 195, 255, 0.719);
+  background-color: rgb(204, 195, 255);
 }
 
 .two{
-  background-color: rgb(204, 195, 255);
+  background-color: rgba(210, 195, 255, 0.719);
 }
 
 .three{
