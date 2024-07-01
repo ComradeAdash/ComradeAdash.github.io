@@ -13,7 +13,7 @@ section{
 }
 
 .one{
-  background-image: url("vaporwave.jpeg");
+  background-color: rgba(210, 195, 255, 0.719);
 }
 
 .two{
@@ -76,5 +76,3 @@ section{
   border-width: 3px;
   border-color: black;
 } */
-
-
