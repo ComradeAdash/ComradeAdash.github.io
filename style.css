@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+#navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #94b89f;
+}
+
+#navbar li {
+  float: left;
+  width: 33.33%;
+  border-right:1px solid #bbb;
+}
+
+#navbar li:hover:not(.active) {
+  background-color: #94b89f;
+}
+
+.active {
+  background-color: #46614e;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li:hover{
+  background-color:#bbb
 }
 
 section{
@@ -33,7 +70,7 @@ section{
 .name{
   color: #5c715e;
   position: absolute;
-  top: 200px; /* Adjust the value as desired */
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
 
