@@ -1,0 +1,9 @@
+# Editor-based HTTP Client requests
+/httpRequests/
+
+.DS_Store
+.DSStore
+..DSStore
+/.DS_Store
+*/.DS_Store
+/..DS_Store
