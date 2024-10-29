@@ -21,8 +21,8 @@
   border-right:1px solid #bbb;
 }
 
-#navbar li:hover:not(.active) {
-  background-color: #94b89f;
+#navbar .inactive:hover {
+  background-color: #bbb;
 }
 
 .active {
@@ -35,10 +35,6 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-#navbar li:hover{
-  background-color:#bbb
 }
 
 section{
