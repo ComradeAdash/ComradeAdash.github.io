@@ -108,10 +108,41 @@ section{
   float: none; 
 }
 
-#text{
+#text ,#info_295,#info_225{
   text-align: justify;
   letter-spacing: 1px;
   width: 50%;
   padding:10%;
   margin:2%;
+}
+
+.one_1{
+  background-color: #f2f9f1;
+  height: 100vh;
+}
+
+.two_2{
+  background-color: #ddeedf;
+}
+
+#report_295, #code_295 ,#pic_225_1, #pic_225_2{
+  margin-top: 2%;
+  margin-left:5%;
+  border:5px solid #46614e;
+}
+
+#header_295{
+  color: #5c715e;
+  position: absolute;
+  top:15%;
+  font-size: 75px;
+  margin-bottom: 1%;
+}
+
+#header_225{
+  color: #5c715e;
+  position: absolute;
+  top:115%;
+  font-size: 75px;
+  margin-bottom: 1%;
 }
