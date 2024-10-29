@@ -6,6 +6,9 @@
   box-sizing:border-box;
   font-family: "PT Sans", sans-serif;
 }
+body{
+  font-family: "PT Sans", sans-serif;
+}
 
 #navbar{
   list-style-type: none;
@@ -54,10 +57,12 @@ section{
 }
 
 .two{
+  text-align: center;
   background-color: #ddeedf;
 }
 
 .three{
+  text-align: center;
   background-color: #b6cdbd;
 }
 
@@ -77,10 +82,14 @@ section{
   font-size: 75px;
 }
 
-#portrait{
+#portrait, #bike, #poland{
   border: 5px solid black;
 }
 
-.text{
-  width: 500px;
+#text{
+  text-align: justify;
+  letter-spacing: 1px;
+  width: 50%;
+  padding:10%;
+  margin:2%;
 }
