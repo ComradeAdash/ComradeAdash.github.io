@@ -102,10 +102,24 @@ section{
 }
 
 #contacts li {
-  width: auto; 
+  border-radius: 25px;
+  background-color: #94b89f;
+  text-align: center;
+  border:2px solid black;
+  width: 100px; 
   padding: 2px;
   margin: 20px; 
   float: none; 
+}
+
+#contacts li a {
+  color:white;
+  display: block;
+  text-decoration: none;
+}
+
+#contacts li:hover{
+  background-color:#bbb
 }
 
 #text{
