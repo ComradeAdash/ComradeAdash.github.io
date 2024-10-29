@@ -24,8 +24,8 @@ body{
   border-right:1px solid #bbb;
 }
 
-#navbar li:hover:not(.active) {
-  background-color: #94b89f;
+#navbar .inactive:hover {
+  background-color: #bbb;
 }
 
 .active {
@@ -38,10 +38,6 @@ body{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-#navbar li:hover{
-  background-color:#bbb
 }
 
 section{
@@ -85,7 +81,7 @@ section{
   font-size: 75px;
 }
 
-#portrait, #bike, #poland{
+#portrait, #bike, #poland ,#holycross, #dishpit,#c{
   border: 5px solid black;
 }
 
@@ -112,6 +108,7 @@ section{
   float: none; 
 }
 
+
 #contacts li a {
   color:white;
   display: block;
@@ -122,10 +119,69 @@ section{
   background-color:#bbb
 }
 
-#text{
+#text ,#info_295,#info_225{
+
   text-align: justify;
   letter-spacing: 1px;
   width: 50%;
   padding:10%;
   margin:2%;
+}
+
+.one_1{
+  background-color: #f2f9f1;
+  height: 100vh;
+}
+
+.two_2{
+  background-color: #ddeedf;
+}
+
+#report_295, #code_295 ,#pic_225_1, #pic_225_2{
+  margin-top: 2%;
+  margin-left:5%;
+  border:5px solid #46614e;
+}
+
+#header_295{
+  color: #5c715e;
+  position: absolute;
+  top:15%;
+  font-size: 75px;
+  margin-bottom: 1%;
+}
+
+#header_225{
+  color: #5c715e;
+  position: absolute;
+  top:115%;
+  font-size: 75px;
+  margin-bottom: 1%;
+}
+
+#section_header_1{
+  color: #5c715e;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 75px;
+}
+
+#section_header_2{
+  color: #5c715e;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 75px;
+}
+
+#section_header_3{
+  color: #5c715e;
+  position: absolute;
+  top: 210%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 75px;
 }

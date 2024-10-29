@@ -9,17 +9,45 @@
 <body>
     <div class="containter">
         <ul id="navbar">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li class="inactive"><a href="index.html">Home</a></li>
+            <li class="inactive"><a href="about.html">About</a></li>
             <li class="active"><a href="projects.html">Projects</a></li>
         </ul>
-        <section class ="one">
+        <section class ="one_1">
+            <h1 id="header_295">CMPT 295 - HASHING MINI PROJECT</h1>
+            <img src="projects/295_report.PNG" id="report_295"alt="project_example_report" height="500" width="450">
+            <img src="projects/295_picture_1.PNG" id="code_295"alt="project_example_code" height="500" width="450">
+            <p id="info_295">
+                This project tested the efficieny of different hash-table implementations based on open-addressing and chaining. Perf was used to analyze performance
+                on differnt kinds, and sizes of arrays, and timing was done on various data types. Open-addressing resulted in faster results, and chaining was inefficient 
+                due to memory locality issues.
+
+                <br/>
+                <br/>
+                <strong>Custom Implementations</strong><br/>
+                Hashmap_open uses Open-Addressing (linear-probing)<br/>
+                Hashmap_chain uses chaining
+                <br/>
+                <br/>
+                <strong>Optimised Libraries Used</strong><br/>
+                unordered_flat_map uses Open-Addressing<br/>
+                unordered_map uses Chaining<br/>
+
+            </p>
         </section>
 
-        <section class ="two">
-        </section>
+        <section class ="two_2">
+            <h1 id="header_225">CMPT 225 - Bank Simulation </h1>
+            <img src="projects/code_225.PNG" id="pic_225_1"alt="225 code sample main program" height="500" width="450">
+            <img src="projects/code_225_2.PNG" id="pic_225_2"alt="code sample of Binary heap" height="500" width="450">
+            <p id="info_225">
+                This project was based around designing a custom Queue, Binary Heap, and Dictionary to create a Bank Simulation Application. 
+                Specifically, the application read through a unsorted .txt file of arrival and departure deadlines, matching them to the correct client, and managing the correct
+                order of arrivals and departures via a event loop to provide a seamless experience. Essentially, putting a priority-queue implementation in use. <br/><br/>
 
-        <section class="three">
+                The queue uses a double-headed linked-list as it's underlying structure to allow for easy insertion/deletion at both ends of the data structure. Resulting in a more
+                desirable time-complexity. 
+            </p>
         </section>
     </div>
 
