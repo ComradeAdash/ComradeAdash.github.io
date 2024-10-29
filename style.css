@@ -54,6 +54,9 @@ section{
 
 .one{
   background-color: #f2f9f1;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 .two{
@@ -84,6 +87,25 @@ section{
 
 #portrait, #bike, #poland{
   border: 5px solid black;
+}
+
+#contacts{
+  position: absolute;
+  top: 90%;
+}
+
+#contacts ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+}
+
+#contacts li {
+  width: auto; 
+  padding: 2px;
+  margin: 20px; 
+  float: none; 
 }
 
 #text{
