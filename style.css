@@ -120,6 +120,8 @@ section{
 }
 
 #text{
+
+  text-align: justify;
   letter-spacing: 1px;
   width: 50%;
   padding:10%;
